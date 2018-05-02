@@ -104,13 +104,20 @@ a.scrollup i:hover {
 	height: 10px;
 	display: block;
 }
-
 .blankdivider20 {
 	height: 20px;
 	display: block;
 }
 .blankdivider30 {
 	height: 30px;
+	display: block;
+}
+.blankdivider40 {
+	height: 40px;
+	display: block;
+}
+.blankdivider50 {
+	height: 50px;
 	display: block;
 }
 
@@ -580,7 +587,7 @@ section.spacer blockquote cite {
 	margin: 0;
 	overflow: hidden;
 	line-height: 0;
-	width: 20%;
+	width: 49%;
 	border:0;
 	padding: 0;
 }
@@ -723,20 +730,20 @@ section.spacer blockquote cite {
 }
 
 
-/* === section services === */
+/* === section roadmap === */
 
-section#services h2 {
+section#roadmap h2 {
 	font-size: 22px;
 	margin-bottom: 15px;
 	margin-top: 10px;
 	text-align:center;
 }
-section#services p {
+section#roadmap p {
 	margin:10px;
 }
 
 
-section#services .service-box {
+section#roadmap .service-box {
 	text-align: center;
 	padding: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -745,23 +752,23 @@ section#services .service-box {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-section#services .span3:hover {
+section#roadmap .span3:hover {
 	background:#e3e3e3;
 }
 
-section#services .service-box h2 {
+section#roadmap .service-box h2 {
 	color: #f7f7f7;
 	font-weight: 700;
 }
 
-section#services.section.orange .service-box:hover {
+section#roadmap.section.orange .service-box:hover {
 	background:#f36518;
 }
 
 
-/* === section blog === */
+/* === section result === */
 
-section#blog {
+section#result {
 	background: #f2f2f2;
 }
 
@@ -824,9 +831,9 @@ section#blog {
 
 
 
-/* === section about === */
+/* === section background === */
 
-section#about {
+section#background {
 	background:#f2f2f2;
 }
 
@@ -1673,10 +1680,10 @@ i.icon-white {
  display: block;
 }
 
- section#services h2 {
+ section#roadmap h2 {
  margin-bottom: 0.25em;
 }
- section#services h2, section#services ul {
+ section#roadmap h2, section#roadmap ul {
  text-align: center;
 }
 		
